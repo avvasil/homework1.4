@@ -13,7 +13,7 @@ public class Main {
 
          int i = 1;
 
-          while (i < 11) {
+          while (i <= 10) {
               System.out.print(i + " ");
               i++;
           }
@@ -34,9 +34,9 @@ public class Main {
 
         if (0 < firstFridayOfTheMonth && firstFridayOfTheMonth < 8) {
 
-            while (firstFridayOfTheMonth < 32) {
+            while (firstFridayOfTheMonth <= 31) {
                 System.out.println("Сегодня пятница, " + firstFridayOfTheMonth + "-е число. Необходимо подготовить отчет.");
-                firstFridayOfTheMonth = firstFridayOfTheMonth + 7;
+                firstFridayOfTheMonth += 7;
             }
         } else
             System.out.println("Введите номер дня недели от 1 до 7.");
